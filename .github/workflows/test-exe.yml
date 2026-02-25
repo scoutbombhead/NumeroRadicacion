@@ -33,10 +33,12 @@ jobs:
           Copy-Item "tests\$file" "dist\NumeroRadicacion\NumeroRadicacion.xlsx" -Force
 
       - name: Clear old logs
+        shell: powershell
         run: |
-          if exist dist\NumeroRadicacion\logs (
-            rmdir /s /q dist\NumeroRadicacion\logs
-          )
+            $logPath = "dist\NumeroRadicacion\logs"
+            if (Test-Path $logPath) {
+            Remove-Item $logPath -Recurse -Force
+            }
 
       - name: Run EXE
         run: dist\NumeroRadicacion\NumeroRadicacion.exe

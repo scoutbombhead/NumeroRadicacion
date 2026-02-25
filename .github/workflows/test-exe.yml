@@ -12,7 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-	# 🔹 Force UTF-8 console encoding
       - name: Set UTF-8 code page
         run: chcp 65001
 

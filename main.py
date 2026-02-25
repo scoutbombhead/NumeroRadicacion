@@ -122,10 +122,11 @@ def main():
         else:
             logger.error(f"Failed to initialize browser for: {number}")
 
-        # Add a small delay between searches
+        # Add a delay between searches to avoid rate limiting
         if index < len(search_numbers):
-            logger.debug(f"Waiting before next search...")
-            time.sleep(2)
+            delay_seconds = 5 + (index % 3)
+            logger.info(f"Waiting {delay_seconds} seconds before next search to avoid rate limiting...")
+            time.sleep(delay_seconds)
 
     logger.info(f"All {len(search_numbers)} searches completed!")
     print(f"\n Execution complete! Check logs at: {LOG_FILE_PATH}")

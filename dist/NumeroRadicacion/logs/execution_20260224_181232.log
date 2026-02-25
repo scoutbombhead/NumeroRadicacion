@@ -1,0 +1,114 @@
+2026-02-24 18:12:32 - NumeroRadicacion - INFO - Starting execution - Logs saved to: C:\Users\sauda\PycharmProjects\NumeroRadicacion\dist\NumeroRadicacion\logs\execution_20260224_181232.log
+2026-02-24 18:12:32 - NumeroRadicacion - INFO - Reading numbers from Excel file: C:\Users\sauda\PycharmProjects\NumeroRadicacion\dist\NumeroRadicacion\NumeroRadicacion.xlsx
+2026-02-24 18:12:32 - NumeroRadicacion - DEBUG - Row 2: 18001310500220120030203.
+2026-02-24 18:12:32 - NumeroRadicacion - DEBUG - Row 3: 86001333100220170010301.
+2026-02-24 18:12:32 - NumeroRadicacion - DEBUG - Row 4: 18001400300120190081800.
+2026-02-24 18:12:32 - NumeroRadicacion - INFO - Successfully read 3 number(s) from Excel
+2026-02-24 18:12:32 - NumeroRadicacion - INFO - Processing number 1/3: 18001310500220120030203.
+2026-02-24 18:12:34 - NumeroRadicacion - INFO - Attempting to access: https://consultaprocesos.ramajudicial.gov.co/Procesos/NumeroRadicacion
+2026-02-24 18:12:37 - NumeroRadicacion - INFO - Successfully accessed URL
+2026-02-24 18:12:37 - NumeroRadicacion - INFO - Page title: Consulta de Procesos por Número de Radicación- Consejo Superior de la Judicatura
+2026-02-24 18:12:37 - NumeroRadicacion - INFO - Successfully selected 2nd radio button
+2026-02-24 18:12:38 - NumeroRadicacion - INFO - Successfully entered search number: 18001310500220120030203.
+2026-02-24 18:12:39 - NumeroRadicacion - INFO - Successfully clicked CONSULTAR button (Strategy 1 - aria-label)
+2026-02-24 18:12:48 - NumeroRadicacion - INFO - No VOLVER button found (dialog may not have appeared)
+2026-02-24 18:12:48 - NumeroRadicacion - INFO - Found clickable number in row 2: 18001310500220120030203
+2026-02-24 18:12:48 - NumeroRadicacion - INFO - Successfully clicked the number: 18001310500220120030203
+2026-02-24 18:12:50 - NumeroRadicacion - INFO - Found Despacho: DESPACHO 000 - TRIBUNAL SUPERIOR - CIVIL - FAMILIA - LABORAL - FLORENCIA *
+2026-02-24 18:12:50 - NumeroRadicacion - INFO - Extracted Despacho value: DESPACHO 000 - TRIBUNAL SUPERIOR - CIVIL - FAMILIA - LABORAL - FLORENCIA *
+2026-02-24 18:12:50 - NumeroRadicacion - DEBUG -   Row 2, Col 3 (Despacho): DESPACHO 000 - TRIBUNAL SUPERIOR - CIVIL - FAMILIA - LABORAL - FLORENCIA *
+2026-02-24 18:12:50 - NumeroRadicacion - INFO - Successfully wrote Despacho to Excel for: 18001310500220120030203.
+2026-02-24 18:12:50 - NumeroRadicacion - INFO - Successfully clicked Actuaciones tab
+2026-02-24 18:12:51 - NumeroRadicacion - INFO - Actuaciones first row extracted
+2026-02-24 18:12:51 - NumeroRadicacion - INFO - Actuaciones first row has 6 columns
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 5: 2024-08-16
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 6: Envío de expediente
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 7: CONFORME LO RESUELTO EN AUTO DEL 01 DE AGOSTO DEL PRESENTE AÑO, CON OFICIO REMISOIO TSSCFL-S-0250 DEL 14-08-2024, SE REMITE LASD DILIGENCIAS AL JUZGADO 02 LABORAL DEL CIRCUTIO. SE REMITE UN LINK DEL PROCESO
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 8: 
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 9: 
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 10: 2024-08-16
+2026-02-24 18:12:51 - NumeroRadicacion - INFO - Successfully wrote data to Excel for: 18001310500220120030203.
+2026-02-24 18:12:51 - NumeroRadicacion - INFO - Wrote Actuaciones first row to Excel for 18001310500220120030203.
+2026-02-24 18:12:51 - NumeroRadicacion - DEBUG -   Row 2, Col 3 (Despacho): DESPACHO 000 - TRIBUNAL SUPERIOR - CIVIL - FAMILIA - LABORAL - FLORENCIA *
+2026-02-24 18:12:51 - NumeroRadicacion - INFO - Successfully wrote Despacho to Excel for: 18001310500220120030203.
+2026-02-24 18:12:51 - NumeroRadicacion - INFO - Successfully clicked Sujetos Procesales tab
+2026-02-24 18:12:53 - NumeroRadicacion - INFO - Found Demandante: AGUSTIN ROMERO CABEZAS
+2026-02-24 18:12:53 - NumeroRadicacion - INFO - Found Demandado: ORLANDO PARDO PEREZ Y MERY AZUCENA SUAREZ MORENO
+2026-02-24 18:12:53 - NumeroRadicacion - INFO - Extracted Subjetos Procesales data - Demandante: AGUSTIN ROMERO CABEZAS, Demandado: ORLANDO PARDO PEREZ Y MERY AZUCENA SUAREZ MORENO
+2026-02-24 18:12:53 - NumeroRadicacion - DEBUG -   Row 2, Col 1 (Demandante): AGUSTIN ROMERO CABEZAS
+2026-02-24 18:12:53 - NumeroRadicacion - DEBUG -   Row 2, Col 2 (Demandado): ORLANDO PARDO PEREZ Y MERY AZUCENA SUAREZ MORENO
+2026-02-24 18:12:53 - NumeroRadicacion - INFO - Successfully wrote Demandante/Demandado to Excel for: 18001310500220120030203.
+2026-02-24 18:12:53 - NumeroRadicacion - INFO - Successfully completed search for: 18001310500220120030203.
+2026-02-24 18:12:56 - NumeroRadicacion - DEBUG - Waiting before next search...
+2026-02-24 18:12:58 - NumeroRadicacion - INFO - Processing number 2/3: 86001333100220170010301.
+2026-02-24 18:12:59 - NumeroRadicacion - INFO - Attempting to access: https://consultaprocesos.ramajudicial.gov.co/Procesos/NumeroRadicacion
+2026-02-24 18:13:02 - NumeroRadicacion - INFO - Successfully accessed URL
+2026-02-24 18:13:02 - NumeroRadicacion - INFO - Page title: Consulta de Procesos por Número de Radicación- Consejo Superior de la Judicatura
+2026-02-24 18:13:02 - NumeroRadicacion - INFO - Successfully selected 2nd radio button
+2026-02-24 18:13:03 - NumeroRadicacion - INFO - Successfully entered search number: 86001333100220170010301.
+2026-02-24 18:13:04 - NumeroRadicacion - INFO - Successfully clicked CONSULTAR button (Strategy 1 - aria-label)
+2026-02-24 18:13:06 - NumeroRadicacion - INFO - Successfully clicked VOLVER button (Strategy 1 - span text)
+2026-02-24 18:13:07 - NumeroRadicacion - INFO - Found clickable number in row 2: 86001333100220170010301
+2026-02-24 18:13:07 - NumeroRadicacion - INFO - Successfully clicked the number: 86001333100220170010301
+2026-02-24 18:13:09 - NumeroRadicacion - INFO - Found Despacho: DESPACHO 000 - TRIBUNAL ADMINISTRATIVO - SIN SECCIÓN - ORAL - MOCOA *
+2026-02-24 18:13:09 - NumeroRadicacion - INFO - Extracted Despacho value: DESPACHO 000 - TRIBUNAL ADMINISTRATIVO - SIN SECCIÓN - ORAL - MOCOA *
+2026-02-24 18:13:09 - NumeroRadicacion - DEBUG -   Row 3, Col 3 (Despacho): DESPACHO 000 - TRIBUNAL ADMINISTRATIVO - SIN SECCIÓN - ORAL - MOCOA *
+2026-02-24 18:13:09 - NumeroRadicacion - INFO - Successfully wrote Despacho to Excel for: 86001333100220170010301.
+2026-02-24 18:13:10 - NumeroRadicacion - INFO - Successfully clicked Actuaciones tab
+2026-02-24 18:13:11 - NumeroRadicacion - INFO - Actuaciones first row extracted
+2026-02-24 18:13:11 - NumeroRadicacion - INFO - Actuaciones first row has 6 columns
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 5: 2024-12-02
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 6: DEVOLUCION ENTIDAD ORIGEN
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 7: MRH-Actuación automática: Proceso finalizado por: Devolucion expediente al Juzgado de origen, en cumplimiento de la Sentencia de segunda instancia de fecha 21-11-2024Devuelve al origen fecha presentación proceso: 2020-10-08, fecha providencia remisoria: 2024-12-02 Despacho origen: MARCO ANTONIO MUÑOZ MERA Tipo providencia: Sentencia - Confirma Sentencia apelada Origen: 860012333000 - MARCO ANTONIO MUÑOZ MERA Destino: 860013333002 - Juzgado Administrativo 002 ADMINISTRATIVO ORALIDAD de MOCOA (PUTUMAYO)-86001
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 8: 
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 9: 
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 10: 2024-12-02
+2026-02-24 18:13:11 - NumeroRadicacion - INFO - Successfully wrote data to Excel for: 86001333100220170010301.
+2026-02-24 18:13:11 - NumeroRadicacion - INFO - Wrote Actuaciones first row to Excel for 86001333100220170010301.
+2026-02-24 18:13:11 - NumeroRadicacion - DEBUG -   Row 3, Col 3 (Despacho): DESPACHO 000 - TRIBUNAL ADMINISTRATIVO - SIN SECCIÓN - ORAL - MOCOA *
+2026-02-24 18:13:11 - NumeroRadicacion - INFO - Successfully wrote Despacho to Excel for: 86001333100220170010301.
+2026-02-24 18:13:11 - NumeroRadicacion - INFO - Successfully clicked Sujetos Procesales tab
+2026-02-24 18:13:13 - NumeroRadicacion - INFO - Found Demandante: AGUEDA ROJAS DE VARGAS
+2026-02-24 18:13:13 - NumeroRadicacion - INFO - Found Demandado: MINISTERIO DE DEFENSA NACIONAL -EJERCITO
+2026-02-24 18:13:13 - NumeroRadicacion - INFO - Extracted Subjetos Procesales data - Demandante: AGUEDA ROJAS DE VARGAS, Demandado: MINISTERIO DE DEFENSA NACIONAL -EJERCITO
+2026-02-24 18:13:13 - NumeroRadicacion - DEBUG -   Row 3, Col 1 (Demandante): AGUEDA ROJAS DE VARGAS
+2026-02-24 18:13:13 - NumeroRadicacion - DEBUG -   Row 3, Col 2 (Demandado): MINISTERIO DE DEFENSA NACIONAL -EJERCITO
+2026-02-24 18:13:13 - NumeroRadicacion - INFO - Successfully wrote Demandante/Demandado to Excel for: 86001333100220170010301.
+2026-02-24 18:13:13 - NumeroRadicacion - INFO - Successfully completed search for: 86001333100220170010301.
+2026-02-24 18:13:15 - NumeroRadicacion - DEBUG - Waiting before next search...
+2026-02-24 18:13:17 - NumeroRadicacion - INFO - Processing number 3/3: 18001400300120190081800.
+2026-02-24 18:13:18 - NumeroRadicacion - INFO - Attempting to access: https://consultaprocesos.ramajudicial.gov.co/Procesos/NumeroRadicacion
+2026-02-24 18:13:22 - NumeroRadicacion - INFO - Successfully accessed URL
+2026-02-24 18:13:22 - NumeroRadicacion - INFO - Page title: Consulta de Procesos por Número de Radicación- Consejo Superior de la Judicatura
+2026-02-24 18:13:22 - NumeroRadicacion - INFO - Successfully selected 2nd radio button
+2026-02-24 18:13:23 - NumeroRadicacion - INFO - Successfully entered search number: 18001400300120190081800.
+2026-02-24 18:13:24 - NumeroRadicacion - INFO - Successfully clicked CONSULTAR button (Strategy 1 - aria-label)
+2026-02-24 18:13:32 - NumeroRadicacion - INFO - No VOLVER button found (dialog may not have appeared)
+2026-02-24 18:13:32 - NumeroRadicacion - INFO - Found clickable number in row 2: 18001400300120190081800
+2026-02-24 18:13:32 - NumeroRadicacion - INFO - Successfully clicked the number: 18001400300120190081800
+2026-02-24 18:13:35 - NumeroRadicacion - INFO - Found Despacho: JUZGADO 001 CIVIL MUNICIPAL DE FLORENCIA
+2026-02-24 18:13:35 - NumeroRadicacion - INFO - Extracted Despacho value: JUZGADO 001 CIVIL MUNICIPAL DE FLORENCIA
+2026-02-24 18:13:35 - NumeroRadicacion - DEBUG -   Row 4, Col 3 (Despacho): JUZGADO 001 CIVIL MUNICIPAL DE FLORENCIA
+2026-02-24 18:13:35 - NumeroRadicacion - INFO - Successfully wrote Despacho to Excel for: 18001400300120190081800.
+2026-02-24 18:13:35 - NumeroRadicacion - INFO - Successfully clicked Actuaciones tab
+2026-02-24 18:13:36 - NumeroRadicacion - INFO - Actuaciones first row extracted
+2026-02-24 18:13:36 - NumeroRadicacion - INFO - Actuaciones first row has 6 columns
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 5: 2021-10-14
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 6: Archivo definitivo
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 7: PAQUETE 2 JUNIO 2021
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 8: 
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 9: 
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 10: 2021-10-14
+2026-02-24 18:13:36 - NumeroRadicacion - INFO - Successfully wrote data to Excel for: 18001400300120190081800.
+2026-02-24 18:13:36 - NumeroRadicacion - INFO - Wrote Actuaciones first row to Excel for 18001400300120190081800.
+2026-02-24 18:13:36 - NumeroRadicacion - DEBUG -   Row 4, Col 3 (Despacho): JUZGADO 001 CIVIL MUNICIPAL DE FLORENCIA
+2026-02-24 18:13:36 - NumeroRadicacion - INFO - Successfully wrote Despacho to Excel for: 18001400300120190081800.
+2026-02-24 18:13:36 - NumeroRadicacion - INFO - Successfully clicked Sujetos Procesales tab
+2026-02-24 18:13:38 - NumeroRadicacion - INFO - Found Demandante: WILMAR ARTUNDUAGA ALVAREZ
+2026-02-24 18:13:38 - NumeroRadicacion - INFO - Found Demandado: DIANA PATRICIA MORERA SANCHEZ
+2026-02-24 18:13:38 - NumeroRadicacion - INFO - Extracted Subjetos Procesales data - Demandante: WILMAR ARTUNDUAGA ALVAREZ, Demandado: DIANA PATRICIA MORERA SANCHEZ
+2026-02-24 18:13:38 - NumeroRadicacion - DEBUG -   Row 4, Col 1 (Demandante): WILMAR ARTUNDUAGA ALVAREZ
+2026-02-24 18:13:38 - NumeroRadicacion - DEBUG -   Row 4, Col 2 (Demandado): DIANA PATRICIA MORERA SANCHEZ
+2026-02-24 18:13:38 - NumeroRadicacion - INFO - Successfully wrote Demandante/Demandado to Excel for: 18001400300120190081800.
+2026-02-24 18:13:38 - NumeroRadicacion - INFO - Successfully completed search for: 18001400300120190081800.
+2026-02-24 18:13:40 - NumeroRadicacion - INFO - All 3 searches completed!

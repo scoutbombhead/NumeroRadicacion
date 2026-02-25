@@ -24,6 +24,10 @@ EXCEL_FILE_PATH = os.path.join(BASE_DIR, "NumeroRadicacion.xlsx")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 LOG_FILE_PATH = os.path.join(LOG_DIR, f"execution_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
 
+# Retry configuration
+MAX_RETRIES_PER_NUMBER = 1  # Number of times to retry a failed search
+RETRY_WAIT_SECONDS = 5  # Seconds to wait before retrying a failed search
+
 # ============================================================================
 # LOGGING CONFIGURATION
 # ============================================================================

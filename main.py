@@ -128,7 +128,7 @@ def main():
             time.sleep(2)
 
     logger.info(f"All {len(search_numbers)} searches completed!")
-    print(f"\n✓ Execution complete! Check logs at: {LOG_FILE_PATH}")
+    print(f"\n Execution complete! Check logs at: {LOG_FILE_PATH}")
 
 
 if __name__ == '__main__':

@@ -1,31 +1,56 @@
-name: Test EXE
+name: Test EXE (Short / Medium / Long)
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+    inputs:
+      test_length:
+        description: "Select test length"
+        required: true
+        default: "short"
+        type: choice
+        options:
+          - short
+          - medium
+          - long
 
 jobs:
-  run-exe:
+  run-test:
     runs-on: windows-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set UTF-8 code page
-        run: chcp 65001
+      - name: Select correct test file
+        shell: powershell
+        run: |
+          switch ("${{ github.event.inputs.test_length }}") {
+            "short"  { $file = "NumeroRadicacion_3.xlsx" }
+            "medium" { $file = "NumeroRadicacion_10.xlsx" }
+            "long"   { $file = "NumeroRadicacion_50.xlsx" }
+          }
+
+          Write-Host "Using test file: $file"
+          Copy-Item "tests\$file" "dist\NumeroRadicacion\NumeroRadicacion.xlsx" -Force
+
+      - name: Clear old logs
+        run: |
+          if exist dist\NumeroRadicacion\logs (
+            rmdir /s /q dist\NumeroRadicacion\logs
+          )
 
       - name: Run EXE
         run: dist\NumeroRadicacion\NumeroRadicacion.exe
 
       - name: Upload logs
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: execution-logs
+          name: logs-${{ github.event.inputs.test_length }}
           path: dist\NumeroRadicacion\logs\
 
-      - name: Upload Excel file
+      - name: Upload Excel
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: execution-excel
+          name: excel-${{ github.event.inputs.test_length }}
           path: dist\NumeroRadicacion\NumeroRadicacion.xlsx

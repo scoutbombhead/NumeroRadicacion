@@ -4,13 +4,21 @@ Configuration and logging setup for NumeroRadicacion project
 
 import logging
 import os
+import sys
 from datetime import datetime
 
 # ============================================================================
 # PATHS AND URLS
 # ============================================================================
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Handle both normal Python execution and PyInstaller bundled executable
+if getattr(sys, 'frozen', False):
+    # Running as a PyInstaller bundle - use the directory of the .exe
+    BASE_DIR = os.path.dirname(sys.executable)
+else:
+    # Running in normal Python environment
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 URL = "https://consultaprocesos.ramajudicial.gov.co/Procesos/NumeroRadicacion"
 EXCEL_FILE_PATH = os.path.join(BASE_DIR, "NumeroRadicacion.xlsx")
 LOG_DIR = os.path.join(BASE_DIR, "logs")

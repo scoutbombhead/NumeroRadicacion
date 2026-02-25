@@ -1,4 +1,0 @@
-2026-02-24 18:12:06 - NumeroRadicacion - INFO - Starting execution - Logs saved to: C:\Users\sauda\PycharmProjects\NumeroRadicacion\dist\NumeroRadicacion\logs\execution_20260224_181206.log
-2026-02-24 18:12:06 - NumeroRadicacion - INFO - Reading numbers from Excel file: C:\Users\sauda\PycharmProjects\NumeroRadicacion\dist\NumeroRadicacion\NumeroRadicacion.xlsx
-2026-02-24 18:12:06 - NumeroRadicacion - ERROR - Excel file not found: C:\Users\sauda\PycharmProjects\NumeroRadicacion\dist\NumeroRadicacion\NumeroRadicacion.xlsx
-2026-02-24 18:12:06 - NumeroRadicacion - WARNING - No numbers to search. Exiting.
